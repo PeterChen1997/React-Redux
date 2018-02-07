@@ -2,7 +2,6 @@
   "name": "learn-redux",
   "version": "1.0.0",
   "description": ":) ",
-  "homepage": "https://peterchen1997.github.io/ReduxApp/",
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
