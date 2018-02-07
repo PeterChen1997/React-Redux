@@ -2,6 +2,7 @@
   "name": "learn-redux",
   "version": "1.0.0",
   "description": ":) ",
+  "homepage": "https://peterchen1997.github.io/ReduxApp/",
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
@@ -16,7 +17,6 @@
   },
   "author": "Wes Bos",
   "license": "MIT",
-  "homepage": "https://github.com/wesbos/Learn-Redux",
   "dependencies": {
     "babel-core": "^6.7.7",
     "babel-eslint": "^6.0.4",

@@ -17,14 +17,15 @@ import { sentry_url } from './data/config'
 
 Raven.config(sentry_url).install()
 
-
+const repo = `/${window.location.pathname.split('/')[1]}`
+const viewPath = `${repo}/view/:postId`
 
 const router = (
     <Provider store={store}>
         <Router history={history}>
-            <Route path="/" component={App}>
+            <Route path={repo} component={App}>
                 <IndexRoute component={PhotoGrid}></IndexRoute>
-                <Route path="/view/:postId" component={Single}></Route>
+                <Route path={viewPath} component={Single}></Route>
             </Route>
         </Router>
     </Provider>
