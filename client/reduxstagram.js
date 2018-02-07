@@ -17,8 +17,8 @@ import { sentry_url } from './data/config'
 
 Raven.config(sentry_url).install()
 
-const repo = '/ReduxApp'
-const viewPath = '/ReduxApp/ReduxApp/view/:postId'
+const repo = `/${window.location.pathname.split('/')[1]}`
+const viewPath = `${repo}/view/:postId`
 
 const router = (
     <Provider store={store}>
