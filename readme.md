@@ -6,7 +6,6 @@ Here is the Redux Learning route from [Wes Bos's Course](https://learnredux.com/
 
 Online Github Page: https://peterchen1997.github.io/ReduxApp/
 
-`TO FIXED:` Here is still a route problem in it!
 
 ## File Structure
 
