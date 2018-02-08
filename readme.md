@@ -1,6 +1,29 @@
-# Learn Redux
+# React + Redux Learning Files
 
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+Here is the Redux Learning route from [Wes Bos's Course](https://learnredux.com/). It's really a wonderful course and really appreciate it.
+
+> The app is a online order system, build with React + Redux
+
+Online Github Page: https://peterchen1997.github.io/ReduxApp/
+
+`TO FIXED:` Here is still a route problem in it!
+
+## File Structure
+
+- REDUXAPP (the project source file)
+  - client/ (the front end project files)
+    - actions/ ()
+    - data/ (the comments and posts data)
+    - reducers/ (the redux reducers folder)
+    - styles/ (the styl in the project)
+    - reduxstagram.js (the entry of this project)
+    - store.js (the redux store file)
+  - package.json
+  - devServer.js (the local server for hot loading)
+- The Github page
+  - dist (the run build sources)
+  - index.html (the default page for github)
+  - 404.html (the simple way to solve the route problem in github page)
 
 ## Running
 
